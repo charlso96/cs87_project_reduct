@@ -1,0 +1,267 @@
+Talk feedback for Group 3. Ford, Keon, Sam
+
+Two parts to this feedback on your midway project report:
+
+  A. anonymized feedback from your classmate
+  B. my feedback with more verbose comments about parts
+     of your presentation
+
+---------------------------------------------------------
+ A. feedback from your classmates about your presentation
+---------------------------------------------------------
+
+---
+
+   1.  What was at least one thing that the group did well
+Interesting topic, very ambitiously framed.
+
+   2. At least one thing on which the group could improve
+A more thorough explanation of the problem and its prevalence in the real world
+
+---
+   1.  What was at least one thing that the group did well
+
+	I thought the subject and knowledge of the subject was very nice.
+
+   2. At least one thing on which the group could improve
+
+	I thought the presentation could use with more interesting slides.
+
+---
+
+   1.  What was at least one thing that the group did well  
+       - Really cool topic and challenges!
+
+       - It seems that there's a lot of components associated with 
+	 this project, and I think it's really amazing how far 
+	 you have gotten with this!
+
+   2. At least one thing on which the group could improve
+       - I think the Data Deduplication definition slide could have 
+	 been expanded to two slides, especially when you talk about
+	 the different kinds of Data Deduplication
+
+---
+
+   1.  What was at least one thing that the group did well  
+	- nice structure throughout presentation
+	- good answers to questions
+	- clean and easy to understand slides
+
+   2. At least one thing on which the group could improve
+	- I think you could benefit from explaining deduplication 
+	  first before anything, since most of us aren't familiar with
+	  this problem, why it is a problem, when it happens, etc.
+	- For Keon and Ford, you were reading from the slides instead
+	  complementing the slides with more information. We can read 
+	  what the slides say but it's not necessarily clear what it means,
+	  so it would be good for you guys to go explain in your own words 
+	  what the slides mean instead of simply reading from them.
+	- For Sam, I felt the interrupting in between 
+	  the other members' slides was a little distracting. It would be 
+	  better if you three talked and reached an agreement on what 
+ 	  should and should not be said during a particular slide, so there
+	  is no need to add things after someone is done speaking.
+---
+
+   1.  What was at least one thing that the group did well  
+
+   Nice justification of project using broad considerations of data usage.
+   I also liked the tree diagram of different compression and deduplication
+   practices.
+
+   2. At least one thing on which the group could improve
+
+   Talk more about the checks you have in place to make sure that everything
+   is done safely. It was explained well considering its complexity,
+   but the big figure showing the architecture of the system could be
+   explained further.
+
+---
+
+   1.  What was at least one thing that the group did well  
+A lot of detail was given to why the choices that were made were made, which
+was helpful for understanding thought process.
+
+   2. At least one thing on which the group could improve
+The slides were quite dense, with lots of information on each one, making it
+hard to digest
+
+---
+
+   1.  What was at least one thing that the group did well  
+   
+   Good illustrations on the design of the file system, handled questions well
+
+   2. At least one thing on which the group could improve 
+   
+   The material is a bit dense, can go over acronyms and definitions more
+   slowly
+
+---
+
+   1.  What was at least one thing that the group did well  
+        Good background and motivation provided, useful images and diagrams of
+        explanation	
+
+   2. At least one thing on which the group could improve
+        Maybe include a little less on what you're not researching - for a
+        topic that few have previous exposure to, explain more of the general
+        concepts useful for understanding your implementation and less on the
+        other types of implementations that aren't directly relevant to
+        understanding your choice (reducing it to a pro/con scenario)
+
+---
+
+   1.  What was at least one thing that the group did well  
+	> The presentation was split well between each of the members. 
+	> The diagram that was used was helpful for understanding the 
+        explanation given and visualizing the components of the file system. 
+
+
+   2. At least one thing on which the group could improve
+        > It was a bit hard to follow some of the explanations - I wonder if
+        they could be simplified a bit. 
+
+---
+
+   1.  What was at least one thing that the group did well  
+        This group picks a very ambitious project and I'm impressed that
+        they've implemented the core functionalities.
+
+   2. At least one thing on which the group could improve
+        I couldn't think of anything, but I'm interested in seeing how they
+        could debug and test for a distributed file system. 
+---
+
+Data deduplication
+  technique for removing redundant/duplicate data
+  file level vs block level
+
+   1.  What was at least one thing that the group did well
+
+   described the differences between file level and block level and laid out
+   what parts of their personal file systems they have completed (read, write,
+   etc)
+
+
+   2. At least one thing on which the group could improve
+
+   How can you clarify between an intentional duplication and
+   a "unnecessary" duplicate i.e what if someone wants an actual copy of a file
+   and not a pointer to it for backup purposes
+
+---
+
+   1.  What was at least one thing that the group did well  
+
+   Excellent explanation of background research, motivation, and concerns, and 
+   good use of images to give an overview of the project and explain their 
+   methodology. 
+
+   2. At least one thing on which the group could improve
+
+   The slides were quite dense text-wise, with subpoints being rather small and 
+   hard to read as a result, but incorporating images as well gave a good 
+   alternative. It would have been great to have the bullet points summarized 
+   into main ideas that each speaker could expound in their own words.
+
+---
+
+1. What was at least one thing that the group did well
+
+They did a good job of introducing the topic - what the overall category is,
+what the scope of their project is and where it falls in the overall category.
+
+2. At least one thing on which the group could improve
+
+They mentioned what they have next to do in the project, but maybe they could
+discuss how they will check when each of these next steps work after
+implementation, and how to test the final project when it is done. If there are
+other metrics (runtime) that they will evaluate they should discuss that as
+well.
+
+---
+
+   1.  What was at least one thing that the group did well  
+
+   Good diagrams! I really enjoyed the clear exposition of a pretty technical
+   and opaque concept.
+
+   2. At least one thing on which the group could improve
+
+   I think more description around the motivation for why deduplication is
+   neccesary would have been appreciated.
+
+
+--------------------------------------------------------------
+ B. my feedback on your presentation
+--------------------------------------------------------------
+
+* background: 
+  * good motivation  (some graphs of growth of data/year might be good here)
+  * distinguish between compression and data deduplication, slow down a bit
+    
+* redundant data techniques
+  * nice figure, slow down a bit here
+  * take time to briefly explain 3 top level approaches in this tree, 
+    and then your path (it is good you did not explain the whole tree,
+    but explain the top-level and your path a bit more)
+
+in final presentation: add a slide or two with reminder of DFS, include
+clients/server/storage in figure
+
+* deduplication
+  * nice slide, refer to your example picture as you talk through
+  * slow down a bit here
+
+* However..
+  * this slide was hard to follow without knowing a bit more about the details
+    of your system
+  * in final presentation, present overview of your system first, so that
+    audience knows what meta data is and what the hashing is and where it fits
+  * more clearly say granularity of deduplication (a block) and what a hash
+    is on 
+
+* Our Strategy:  
+  * add figure(s) to this in final presentation
+  * this should likely be multiple slides in final presentation
+
+* Figure
+  * nice, but add a simplified version earlier
+  * here, annotate steps on figure, think about using multiple slides that 
+    illustrate each step
+    * start with main figure
+    * at each step new slide that highlights numbers the part you are talking
+      about
+
+* Progress & TODO 
+   * good progress
+   * focus more on the important TODO items vs. listing all
+  
+   1.  What was at least one thing that the group did well
+
+      * logical order to presentation
+      * good motivation and presentation of details of implementation  
+      * good overall explaination of topic in limited time
+      * figure of system is nice (but need more time to talk through all parts)
+      * this is an impressive project, and you have clearly made some
+        significat progress on implementation of a system you can start
+        testing
+
+   2. At least one thing on which the group could improve
+
+      * add more figures earlier to help audience understand
+      * slow down and explain more about your system
+      * there were some points where you seemed surprised by the next slide
+        make sure you practice your final presentation together a few times 
+      * there were points where you need to slow down a bit and explain more
+        (you will have more time in your final presentation)
+      * split up presentation a bit more evenly among the three of you
+
+ Let's talk about some of your ideas for testing and experimentation 
+ later this week or early next week.  There is a lot of ways to go, and
+ I think talking through some ideas may be helpful as you start in on 
+ this phase.
+
+====================================================================
