@@ -1,4 +1,4 @@
-CS87 Course project repo
+# CS87 Course project repo
 
 This is my final project, "Reduct, Deduplicated Distributed File System" for
 Swarthmore CPSC87 course (Parallel and Distributed Computing), which I
